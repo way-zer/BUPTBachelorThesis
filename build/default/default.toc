@@ -30,13 +30,13 @@
 \contentsline {section}{\numberline {2.12}我对自己要求低的话也不至于想要修订这份模板}{8}{section.2.12}%
 \setcounter {tocdepth}{0}\pagenumberfalse \ignorespaces 
 \contentsline {chapter}{参考文献}{9}{section*.7}%
-\contentsline {chapter}{\numberline {3}致\hskip 2em\relax {}谢}{9}{chapter.3}%
-\contentsline {chapter}{附\hskip 2em\relax {}录}{10}{section*.9}%
-\contentsline {section}{附录1\hskip 1em\relax {}缩略语表}{10}{section*.10}%
-\contentsline {section}{附录2\hskip 1em\relax {}数学符号}{11}{section*.14}%
-\contentsline {chapter}{外\hskip 1em\relax {}文\hskip 1em\relax {}资\hskip 1em\relax {}料}{12}{section*.15}%
-\contentsline {chapter}{外\hskip 1em\relax {}文\hskip 1em\relax {}译\hskip 1em\relax {}文}{18}{section*.16}%
-\contentsline {chapter}{开\hskip 1em\relax {}题\hskip 1em\relax {}报\hskip 1em\relax {}告}{22}{section*.19}%
-\contentsline {chapter}{中\hskip 1em\relax {}期\hskip 1em\relax {}检\hskip 1em\relax {}查\hskip 1em\relax {}表}{24}{section*.20}%
-\contentsline {chapter}{教师指导毕业设计（论文）记录表}{26}{section*.21}%
+\contentsline {chapter}{\numberline {3}致\hskip 2em\relax {}谢}{10}{chapter.3}%
+\contentsline {chapter}{附\hskip 2em\relax {}录}{11}{section*.10}%
+\contentsline {section}{附录1\hskip 1em\relax {}缩略语表}{11}{section*.11}%
+\contentsline {section}{附录2\hskip 1em\relax {}数学符号}{12}{section*.15}%
+\contentsline {chapter}{外\hskip 1em\relax {}文\hskip 1em\relax {}资\hskip 1em\relax {}料}{13}{section*.16}%
+\contentsline {chapter}{外\hskip 1em\relax {}文\hskip 1em\relax {}译\hskip 1em\relax {}文}{19}{section*.17}%
+\contentsline {chapter}{开\hskip 1em\relax {}题\hskip 1em\relax {}报\hskip 1em\relax {}告}{23}{section*.20}%
+\contentsline {chapter}{中\hskip 1em\relax {}期\hskip 1em\relax {}检\hskip 1em\relax {}查\hskip 1em\relax {}表}{25}{section*.21}%
+\contentsline {chapter}{教师指导毕业设计（论文）记录表}{27}{section*.22}%
 \contentsfinish 
