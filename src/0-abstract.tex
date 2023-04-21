@@ -1,0 +1,109 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                  %
+%   Modified by Bing Hsu <hello@antinucleon.com> 2013              %
+%   Forked From (c) 2010 - 2011 Caspar Zhang <casparant@gmail.com> %
+%                                                                  %
+%   This copyrighted material is made available to anyone wishing  %
+%   to use, modify, copy, or redistribute it subject to the terms  %
+%   and conditions of the GNU General Public License version 2.    %
+%                                                                  %
+%   This program is distributed in the hope that it will be        %
+%   useful, but WITHOUT ANY WARRANTY; without even the implied     %
+%   warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR        %
+%   PURPOSE. See the GNU General Public License for more details.  %
+%                                                                  %
+%   You should have received a copy of the GNU General Public      %
+%   License along with this program; if not, write to the Free     %
+%   Software Foundation, Inc., 51 Franklin Street, Fifth Floor,    %
+%   Boston, MA 02110-1301, USA.                                    %
+%                                                                  %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% 论文中文题目
+\def\thesistitle{社猜猜看这个毕设题目是什么}
+\def\abstractzh{
+    %从这里开始写你的摘要，分段需要空一行。
+    这是中文摘要的部分。
+
+    它可以拥有多段。
+    这是中文摘要的部分。
+
+    它可以拥有多段。
+
+    如果你写的太长，甚至可以到第二页。
+    %摘要结束
+}
+\def\absZhkeys{北京邮电大学\quad{}本科生\quad{}毕业设计\quad{}模板\quad{}示例}
+
+% 论文英文题目
+%提示：英文摘要页的标题注意格式要求。
+\def\thesistitleen{HAVE A TRY TO GUESS WHAT THE TITLE IS}
+\def\abstracten{
+    %Your abstract here, to make a new paragraph, give an extra blank line please.
+    This is ABSTRACT.
+
+    You can write more than one paragraph here.
+
+    If your abstract is too long, it will take up more pages.
+    %Abstract done
+}
+\def\absEnKeys{BUPT\quad{}undergraduate\quad{}thesis\quad{}template\quad{}example}
+
+% 中文摘要
+\begin{titlepage}
+
+    \pagestyle{empty}
+
+    \begin{spacing}{1.05}
+        \centering
+        % 如果你的标题太长，可能会换行；如果你对换行位置不满意，请调节下面第一个{}的参数
+        \parbox[c]{.75\textwidth}{\thesistitlefont{\thesistitle}}
+    \end{spacing}
+
+    \begin{spacing}{1.5}
+        \centering
+        \sanhao\quad{} \\
+        \abszhname{摘\quad{}要} \\
+    \end{spacing}
+    \xiaosanhao\quad{}
+
+    \normalsize
+
+    \abstractzh
+
+    \quad{}
+
+    \par\noindent\abszhkey{关键词}\quad{}%
+    \abszhkeys{\absZhkeys}%
+\end{titlepage}
+
+\thispagestyle{empty}
+
+% Abstract
+\begin{titlepage}
+
+    \pagestyle{empty}
+
+    \begin{spacing}{1.05}
+        \centering
+        % 如果你的标题太长，可能会换行；如果你对换行位置不满意，请调节下面第一个{}的参数
+        \parbox[c]{.75\textwidth}{\thesistitleenfont{\thesistitleen}}
+    \end{spacing}
+
+    \begin{spacing}{1.5}
+        \centering
+        \sanhao\quad{} \\
+        \abszhname{ABSTRACT} \\
+    \end{spacing}
+    \xiaosanhao\quad{}
+    \normalsize
+
+    \abstracten
+
+    \quad{}
+
+    \par\noindent\absenkey{KEY WORDS}\quad{}%
+    \absenkeys{\absEnKeys}%
+\end{titlepage}
+
+\thispagestyle{empty}

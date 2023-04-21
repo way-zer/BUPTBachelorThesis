@@ -1,0 +1,64 @@
+% 封面
+\blankmatter
+\includepdf[pages=-]{docs/cover.pdf}
+
+% 任务书
+\blankmatter
+\includepdf[pages=-]{docs/task.pdf}
+
+% 成绩评定表
+\blankmatter
+\includepdf[pages=-]{docs/scoreTable.pdf}
+
+% 诚信声明
+\blankmatter
+\includepdf[pages=-]{docs/statement.pdf}
+
+% Abstract
+\include{0-abstract.tex}
+
+% Table of Contents
+\fancypagestyle{plain}{\pagestyle{frontmatter}}
+\frontmatter\tableofcontents
+\newpage
+
+% Main
+\mainmatter
+\fancypagestyle{plain}{\pagestyle{mainmatter}}
+\include{main}
+
+\begin{nopagenumber}
+    % Reference
+    \clearpage\phantomsection\addcontentsline{toc}{chapter}{参考文献}
+    \bibliographystyle{buptbachelor}
+    \refbodyfont{\bibliography{ref}}
+
+    % Thanks to page
+    \clearpage
+    \chapter{致\qquad{}谢}
+    \normalsize
+    此处请写致谢的内容。
+
+    它可以有多段。
+
+    % Appendix
+    \include{9-appendix.tex}
+
+    % Translated Article
+    \include{9-articles.tex}
+
+    % 开题报告
+    \blankmatter
+    \phantomsection\addcontentsline{toc}{chapter}{开\quad{}题\quad{}报\quad{}告}
+    \includepdf[pages=-]{docs/openingReport.pdf}
+
+    % 中期检查表
+    \blankmatter
+    \phantomsection\addcontentsline{toc}{chapter}{中\quad{}期\quad{}检\quad{}查\quad{}表}
+    \includepdf[pages=-]{docs/interimReport.pdf}
+
+    % 教师指导毕业设计（论文）记录表
+    \blankmatter
+    \phantomsection\addcontentsline{toc}{chapter}{教师指导毕业设计（论文）记录表}
+    \includepdf[pages=-]{docs/guidance.pdf}
+\end{nopagenumber}
